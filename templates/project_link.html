@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+	<h1><a href="/" class="main-title">Lucas Reynolds</a></h1>
+	{% if error %}
+		<div class="Error">{{error}}</div>
+	{% else %}
+		<div class="Project_link_title"><a href="/projects">Projects</a> - {{project_name}}</div>
+		<div class="Project_link_contents"><pre>{{file_content}}</pre></div>
+	{% endif %}
+{% endblock %}

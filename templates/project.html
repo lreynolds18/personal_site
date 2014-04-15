@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+	<h1><a href="/" class="main-title">Lucas Reynolds</a></h1>
+	<div class="Projects">Projects</div>
+	<br>
+	<div class="project">
+		<div class="project-python">
+			<label><b>Python</b></label><br>
+			{% for file in projects["python"] %}
+				<a href="/projects/{{ file }}">{{file}}</a><br>
+			{% endfor %}
+		</div>
+		
+		<div class="project-c++">
+			<label><b>C++</b></label><br>
+			{% for file in projects["c++"] %}
+				<a href="/projects/{{ file }}">{{file}}</a><br>
+			{% endfor %}
+		</div>
+	</div>
+
+{% endblock %}

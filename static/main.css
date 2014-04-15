@@ -1,0 +1,82 @@
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	background-color: #18453B;
+	color: white;
+}
+.main {
+	width: 800px;
+	height: 30px;
+}
+
+.main-link {
+	float: left;
+	width: 140px;
+	height: 30px;
+}
+
+.pic {
+	height: 375px;
+	width: 1000px;
+}
+
+.msu-pic {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom 0;
+	height: 100px;
+	width: 400px;
+}
+
+.title {
+	float: left;
+}
+
+.egr-pic {
+	float: right;
+	height: 123px;
+	width: 123px;
+}
+
+.about {
+	width: 600px;
+	height: 400px;
+	line-height:150%;
+}
+
+.info-links {
+	line-height:150%;
+}
+
+.project {
+	width: 700px;
+	height: 200px;
+	clear: both;
+}
+
+.project-python {
+	float: left;
+	display: inline-block;
+	width: 150px;
+	height: 500px;
+	line-height: 150%;
+}
+
+.project-c++ {
+	float: left;
+	width: 150px;
+	height: 500px;
+	line-height: 150%;
+}
+
+.project-misc {
+	float: left;
+	width: 150px;
+	height: 600px;
+	line-height: 150%;
+}

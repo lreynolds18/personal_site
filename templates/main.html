@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+	<div class="title"><h1>Lucas Reynolds</h1></div>
+	<a href="http://www.adapp-advance.msu.edu/files_adapp-advance/imagecache/logo-page/logos/egr_logo.gif">
+	<img class="egr-pic" src="static/egr_logo.gif" alt="EGR Logo"></a><br><br><br><br><br>
+	<div class="main">
+	<div class="main-link"><a href="/about">About Me</a></div>
+	<div class="main-link"><a href="/projects">Projects</a></div>
+	{% if status %}
+	<div class="main-link"><a href="http://lucas-reynolds.appspot.com">Blog</a></div>
+	{% endif %}
+	<div class="main-link"><a href="/contact">Contact Information</a></div>
+	</div>
+	<hr>
+	<p>Hello all, welcome to my page.</p><br><br>
+	<div class="pic"></div>
+	<a href="http://dlp.org/wp-content/uploads/2013/01/MichiganState.gif">
+	<img class="msu-pic" src="static/msu_logo.gif" alt="MSU Logo"></a>
+{% endblock %}
